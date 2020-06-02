@@ -3,12 +3,17 @@
 import sqlite3
 from os import path
 
-
+"""
+    This script creates a database and adds qualifying
+    data from a list of file names into that database. 
+"""
 
 fileList = ("information.docx","Hello.txt","myImage.png", \
             "myMovie.mpg","World.txt","data.pdf","myPhoto.jpg")
 txtFiles = []
 for file in fileList:
+    # iterates through fileList, determines which items end
+    # with the .txt extention and adds them to a new list.
     root,ext = path.splitext(file)
     if ext == '.txt':
         txtFiles.append(file)
