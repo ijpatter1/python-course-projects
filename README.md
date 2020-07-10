@@ -1,2 +1,5 @@
 # python-course-projects
- Assignments and projects from TTA Python course
+ Assignments and projects completed during The Tech Academy Python course
+ 
+ ## Projects of Note are:
+ 
